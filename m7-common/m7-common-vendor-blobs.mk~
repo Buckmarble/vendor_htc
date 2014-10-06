@@ -197,7 +197,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/m7-common/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/m7-common/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
+<<<<<<< HEAD
         vendor/htc/m7-common/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+=======
         vendor/htc/m7-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m7-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/m7-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -206,6 +208,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+>>>>>>> 3d1a89e... m7-common: Add Widevine proprietary libs
         vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
